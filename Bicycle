@@ -1,0 +1,34 @@
+$ pwd
+/home/ccuser/workspace/bicycle-world-ii
+$ 
+$ ls
+bmx  brands.txt  freight  mountain  racing
+$ 
+$ cd freight
+$ 
+$ ls
+messenger  porteur
+$ 
+$ cd porteur
+$ 
+$ cd ../..
+$ 
+$ ls
+bmx  brands.txt  freight  mountain  racing
+$ 
+$ cd mountain/downhill
+$ 
+$ touch dirt.txt
+$ 
+$ touch mud.txt
+$ 
+$ ls
+dirt.txt  heavyweight  lightweight  mud.txt  safety
+$ 
+$ mkdir safety
+mkdir: cannot create directory ‘safety’: File exists
+$ 
+$ cd ../..
+$ 
+$ ls
+bmx  brands.txt  freight  mountain  racing
