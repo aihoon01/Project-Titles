@@ -81,7 +81,6 @@ switch (firstDigit) {
   default:
   console.log('Company not found');
 }
-  
 } let newSet = [...new Set(invalidCompanies)];
 return newSet;
 }
