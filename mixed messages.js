@@ -6,5 +6,5 @@ const generateRandomMessage = message => {
     const randomMessage = Math.floor(Math.random() * message.length);
     return message[randomMessage];
 }
-console.log(`This is your Whatsapp status: ${generateRandomMessage(whatsapp)} and this is you network status: ${generateRandomMessage(network)}, and this is your phone status: ${generateRandomMessage(phones)}.`);
+console.log(`This is your whatsapp status: ${generateRandomMessage(whatsapp)} and this is you network status: ${generateRandomMessage(network)}, and this is your phone status: ${generateRandomMessage(phones)}.`);
 
